@@ -1,0 +1,31 @@
+{
+  "packages": [
+    "git@2.42.0",
+    "go@1.20.4",
+    "eza@latest",
+    "colima@0.5.6",
+    "jq@latest",
+    "k9s@latest",
+    "kubectl@latest",
+    "kcat@1.7.1",
+    "rustc@latest",
+    "python3@latest",
+    "awscli@latest",
+    "wget@1.21.4",
+    "rclone@1.64.2",
+    "bat@0.24.0",
+    "tree@2.1.1",
+    "z-lua@latest",
+    "docker@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
